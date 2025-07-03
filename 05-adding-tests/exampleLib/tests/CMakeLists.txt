@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.17)
 
+include(FetchUnity)
+include(FetchCMock)
+
 # Verifica que Ruby esté instalado (necesario para CMock)
 # find_package(Ruby REQUIRED)
 
